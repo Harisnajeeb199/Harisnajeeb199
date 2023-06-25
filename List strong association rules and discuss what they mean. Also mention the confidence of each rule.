@@ -1,0 +1,16 @@
+There are three strong association rules:
+
+F_B+ --> O_B (confidence: 0.8):
+This rule indicates that if a student scores a grade of 'B+' in FOP (Fundamentals of Programming), there is an 80% confidence that they will also score a grade of 'B' in OOPS (Object-oriented Programming).
+
+F_B --> O_B+ (confidence: 0.7):
+This rule suggests that if a student scores a grade of 'B' in FOP, there is a 70% confidence that they will achieve a grade of 'B+' in OOPS.
+
+O_B+ --> F_B (confidence: 0.7):
+This rule indicates that if a student scores a grade of 'B+' in OOPS, there is a 70% confidence that they will score a grade of 'B' in FOP.
+
+The confidence values represent the conditional probability of the consequent grade occurring given the antecedent grade. For example, in the first rule, a confidence of 0.8 means that among all the transactions where the antecedent grade is 'B+' in FOP, 80% of them also have the consequent grade of 'B' in OOPS.
+
+These association rules provide insights into the relationship between grades in FOP and OOPS, indicating which pairs of grades tend to co-occur with a high level of confidence. They can be interpreted as potential patterns or tendencies in the dataset.
+
+It's important to note that the actual rules and their meanings will depend on your specific dataset and the thresholds used. Make sure to consider the context of the problem and the characteristics of the data when interpreting the association rules.
